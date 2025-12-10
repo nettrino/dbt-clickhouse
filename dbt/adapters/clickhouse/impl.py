@@ -77,6 +77,7 @@ class ClickHouseAdapter(SQLAdapter):
         {
             Capability.SchemaMetadataByRelations: CapabilitySupport(support=Support.Unsupported),
             Capability.TableLastModifiedMetadata: CapabilitySupport(support=Support.Unsupported),
+            Capability.MicrobatchConcurrency: CapabilitySupport(support=Support.Full),
         }
     )
 
